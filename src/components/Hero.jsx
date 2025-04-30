@@ -14,20 +14,22 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-800 leading-tight">
-            Hi, I’m <span className="text-pink-500">[Maroofa Maqsood]</span>
+            Hi, I’m <span className="text-pink-500">Maroofa Maqsood</span>
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-gray-600 max-w-xl">
             A passionate <span className="font-semibold">Social Media Manager</span> and{" "}
             <span className="font-semibold">Content Creator</span> helping brands grow their
             online presence with creativity and strategy.
           </p>
-          <motion.button
-            className="mt-6 bg-pink-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-pink-600 transition duration-300"
+          <motion.a
+            href="/maroofa.pdf"
+            download
+            className="inline-block mt-6 bg-pink-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-pink-600 transition duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Work with Me
-          </motion.button>
+            Download CV
+          </motion.a>
         </motion.div>
 
         {/* Image */}

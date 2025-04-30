@@ -106,7 +106,7 @@ const Contact = () => {
             </p>
             <p className="text-lg mb-4">
               <strong>Location:</strong>{" "}
-              <span className="text-pink-400">Dubai, UAE</span>
+              <span className="text-pink-400">Srinagar, India</span>
             </p>
             <div className="text-lg mt-8">
               <p className="font-semibold">Follow me on social media:</p>

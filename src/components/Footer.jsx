@@ -3,7 +3,10 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from "react
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12">
+    <footer className="bg-gradient-to-r from-pink-600 to-pink-500 text-white py-12">
+
+
+
       <div className="max-w-screen-lg mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Quick Links */}
@@ -43,8 +46,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact Info</h3>
             <p className="mb-2">Email: <span className="font-medium">maroofa.contact@gmail.com</span></p>
-            <p className="mb-2">Phone: <span className="font-medium">+1234567890</span></p>
-            <p>Location: <span className="font-medium">Dubai, UAE</span></p>
+            <p className="mb-2">Phone: <span className="font-medium">+91 6006773643</span></p>
+            <p>Location: <span className="font-medium">Srinagar, India</span></p>
           </div>
         </div>
 
